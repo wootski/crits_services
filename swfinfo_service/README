@@ -1,0 +1,33 @@
+SWFInfo is Flash analysis service, currently in the research stage. It's intended purpose is to:
+- Decompress compressed Flash files
+- Extract metadata from Flash files
+- Inspect Flash file conents
+    - ActionScript analysis
+    - TBA
+
+TODO:
+- Ensure functionality is not already provided by existing services
+- Determine time vs. value of SWFInfo
+- Obtain Flash malware samples for popular CVE's
+- Malware analysis of samples
+- Research Flash analysis libraries, for example:
+    - yaswfp (https://github.com/facundobatista/yaswfp)     2 contributor(s) @ Sep 2014
+    - pyswf (https://github.com/timknip/pyswf)              7 contributor(s) @ Mar 2015
+    - arswf (https://github.com/ardevelop/arswf)            1 contributor(s) @ Aug 2013
+    - SWFTools (http://www.swftools.org/)                   0.9.2
+    - abcdump (https://code.google.com/p/redtamarin)        1 contributor(s) @ Oct 2014
+    - flasm/flare (http://www.nowrap.de/)                   1.6.2/0.6
+    - SWFREtools (https://github.com/sporst/SWFREtools)     3 contributor(s) @ Oct 2012
+    - Sujo (https://github.com/F-Secure/Sulo)               1 contributor(s) @ Aug 2014 [dynamic analysis]
+    - Adobe SWF Investigator (http://labs.adobe.com/
+		technologies/swfinvestigator/               -
+
+References:
+- https://www.owasp.org/images/4/4e/Malware_analysis_of_flash_content.pdf
+- http://bruce-lab.blogspot.com/2010/08/freeswfdecompilers.html
+- https://zeltser.com/analyzing-malicious-flash-with-swfretools/
+- https://github.com/sporst/SWFREtools/blob/master/slides/source_boston_2011.pptx
+- https://blog.malwarebytes.org/exploits-2/2014/09/flash-ek-skips-landing-page-goes-flash-all-the-way/
+- https://blog.malwarebytes.org/exploits-2/2014/10/exposing-the-flash-eitest-malware-campaign/
+- http://blogs.technet.com/b/mmpc/archive/2012/05/24/a-technical-analysis-of-adobe-flash-player-cve-2012-0779-vulnerability.aspx
+- http://malware.dontneedcoffee.com/2015/02/cve-2015-0313-flash-up-to-1600296-and.html
